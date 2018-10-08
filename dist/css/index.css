@@ -37,6 +37,14 @@ body {
     /*text-align: center;*/
 }
 
+#logo {
+    background: url(/dist/img/PYTN.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    width: 100px;
+}
 
 /* PAGE CONTENT */
 .jumbotron {
