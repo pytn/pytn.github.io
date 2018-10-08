@@ -2,6 +2,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     background: #FFF;
 }
+
 .wrap {
     box-sizing: border-box;
     max-width: 1200px;
@@ -13,35 +14,39 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .navbar > div {
     min-height: 50px !important;
 }
+
 .title {
     font-size: 2em;
     font-weight: 800;
     text-transform: uppercase;
 }
+
 .link {
     text-transform: uppercase;
     color: #555;
     border-bottom: 2px dashed #eee;
 }
+
 .link-holder {
     margin-bottom: 10px;
 }
+
 .link > a {
     text-decoration: none;
     color: #555;
 }
+
 .link-holder {
     /*text-align: center;*/
 }
 
 #logo {
-    background: url(/dist/img/PYTN.png);
-    background-position: center;
+    background: url(../img/PYTN.png) no-repeat center;
     background-size: contain;
-    background-repeat: no-repeat;
     min-height: 100px;
     width: 100px;
 }
@@ -51,11 +56,13 @@ body {
     /*background: #42a5f5 center url("/PaytonPortfolio/dist/img/computer.jpg");*/
     padding: 50px;
 }
+
 .jumbotron-title {
     font-size: 3em;
     color: #000;
     font-weight: 600;
 }
+
 .jumbotron-subtitle {
     font-size: 1.1em;
     font-style: italic;
@@ -88,6 +95,7 @@ body {
         opacity: 1;
     }
 }
+
 .project:hover > div {
     visibility: visible;
     opacity: 1;
@@ -98,22 +106,25 @@ body {
 }
 
 .main-content #computer {
-    background: #42a5f5 center url("/dist/img/computer.jpg") no-repeat;
+    background: #42a5f5 center url("../img/computer.jpg") no-repeat;
     background-size: cover;
     color: black;
 }
+
 .main-content #group {
-    background: #42a5f5 center url("/dist/img/group.jpg") no-repeat;
+    background: #42a5f5 center url("../img/group.jpg") no-repeat;
     background-size: cover;
     color: black;
 }
+
 .main-content #vr {
-    background: #42a5f5 center url("/dist/img/vr.jpg") no-repeat;
+    background: #42a5f5 center url("../img/vr.jpg") no-repeat;
     background-size: cover;
     color: black;
 }
+
 .main-content #photo {
-    background: #42a5f5 center url("/dist/img/photo.jpg") no-repeat;
+    background: #42a5f5 center url("../img/photo.jpg") no-repeat;
     background-size: cover;
     color: black;
 }
@@ -132,28 +143,36 @@ body {
     -webkit-transition: color .5s; /* Safari */
     transition: color .5s;
 }
+
 .icons a {
     color: #aaa;
 }
+
 .fab:hover {
     -webkit-transition: color .5s; /* Safari */
     transition: color .5s;
 }
+
 .fa-linkedin:hover {
     color: #0077b5;
 }
+
 .fa-facebook:hover {
     color: #3b5998;
 }
+
 .fa-github:hover {
     color: #000;
 }
+
 .fa-github-square:hover {
     color: #000;
 }
+
 .fa-behance:hover {
     color: #1769ff;
 }
+
 .fa-behance-square:hover {
     color: #1769ff;
 }
